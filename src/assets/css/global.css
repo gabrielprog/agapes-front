@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body { background-color: var(--second-color) !important; }
+
+.bg-primary { background-color: var(--primary-color) !important; }
+.bg-second { background-color: var(--third-color) !important; }
+.bg-third { background-color: var(--fourth-color) !important; }
+
+.color-red { color: red !important; }
+.color-white { color: white !important; }
+.color-light { color: var(--primary-color) !important; }
+
+.border-none { border: none !important; }
+.cursor-point { cursor: pointer; }
